@@ -1,0 +1,75 @@
+eval $(minikube docker-env)
+cd /home/ajith/git/spring-k8s-cassandra-microservices/microservice-spring-boot
+kubectl delete deploy spring-boot-service -n spring-boot-service
+kubectl delete svc spring-boot-service -n spring-boot-service
+docker build -t aakumara/spring-boot-service:1.0.2-SNAPSHOT .
+kubectl apply -n spring-boot-service -f ../deploy/spring-boot
+
+kubectl -n spring-boot-service get pods
+
+kubectl -n spring-boot-service port-forward spring-boot-service-5fb74cc4b6-qflwr 8083:8083
+
+
+
+
+
+
+cd microservice-spring-data
+kubectl -n spring-data-service get pods
+kubectl -n spring-data-service port-forward  <get-the-pod-id> 8081:8081
+
+
+curl -H "Content-Type: application/json"  -d '{"key": {"orderId":"123e4567-e89b-12d3-a456-556642440000", "productId":"123e4567-e89b-12d3-a456-556642440001"}, "productName":"Android", "productPrice":"600.00", "productQuantity":1, "addedToOrderTimestamp": "2020-04-12T11:22:59.001+0000"}' http://localhost:8081/api/orders/add
+
+
+Cassandra cqlsh 
+kubectl exec -n cass-operator -i -t -c cassandra cluster1-dc1-default-sts-0 -- /opt/cassandra/bin/cqlsh -u cluster1-superuser -p BMYwNn9tD1rWtNJ16lVMdhn8C1Z85-ew1GhExfJw-IqfGeoqBbN78Q
+
+
+
+
+kubectl get po -n spring-boot-service
+
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"username": "Lal Ajith Kumara", "nic":"820974174v"}' http://localhost:8083/api/users/add
+
+
+# Add products
+curl -X POST -H "Content-Type: application/json" -d '{"name": "mobile", "id":"123e4567-e89b-12d3-a456-556642440003", "description":"Samsung", "price":"300.00"}' http://localhost:8083/api/products/add
+
+curl -X POST -H "Content-Type: application/json" -d '{"name": "mobile", "id":"123e4567-e89b-12d3-a456-556642440004", "description":"Nokia", "price":"600.00"}' http://localhost:8083/api/products/add
+
+# Get products with name = mobile
+curl http://localhost:8083/api/products/search/mobile
+
+# Get products with name = mobile and id = 123e4567-e89b-12d3-a456-556642440001
+curl http://localhost:8083/api/products/search/mobile/123e4567-e89b-12d3-a456-556642440001
+
+# Delete product with name = mobile and id = 123e4567-e89b-12d3-a456-556642440001
+curl -X DELETE http://localhost:8083/api/products/delete/mobile/123e4567-e89b-12d3-a456-556642440001
+
+
+
+
+
+# Add orders
+curl -H "Content-Type: application/json" -d '{"key": {"orderId":"123e4567-e89b-12d3-a456-556642440000", "productId":"123e4567-e89b-12d3-a456-556642440000"}, "productName":"Nokia", "productPrice":"800.00", "productQuantity":1, "addedToOrderTimestamp": "2020-04-12T11:21:59.001+0000"}' http://localhost:8081/api/orders/add
+
+curl -H "Content-Type: application/json"  -d '{"key": {"orderId":"123e4567-e89b-12d3-a456-556642440000", "productId":"123e4567-e89b-12d3-a456-556642440001"}, "productName":"Samsung", "productPrice":"900.00", "productQuantity":1, "addedToOrderTimestamp": "2020-04-12T11:22:59.001+0000"}' http://localhost:8081/api/orders/add
+
+# Get orders with order_id = 123e4567-e89b-12d3-a456-556642440000
+curl http://localhost:8081/api/orders/search/order-by-id?orderId=123e4567-e89b-12d3-a456-556642440000
+
+# Get order with order_id = 123e4567-e89b-12d3-a456-556642440000 and product_id = 123e4567-e89b-12d3-a456-556642440000
+curl "http://localhost:8081/api/orders/search/order-by-product-id?orderId=123e4567-e89b-12d3-a456-556642440000&productId=123e4567-e89b-12d3-a456-556642440000"
+
+# Shows how to use a projection with Spring Data REST
+curl http://localhost:8081/api/orders/search/name-and-price-only?orderId=123e4567-e89b-12d3-a456-556642440000
+curl "http://localhost:8081/api/orders/search/name-and-price-only?orderId=123e4567-e89b-12d3-a456-556642440000&projection=product-name-and-price"
+
+# Delete order with order_id = 123e4567-e89b-12d3-a456-556642440000 and product_id = 123e4567-e89b-12d3-a456-556642440000
+curl -X DELETE "http://localhost:8081/api/orders/delete/product-from-order?orderId=123e4567-e89b-12d3-a456-556642440000&productId=123e4567-e89b-12d3-a456-556642440000"
+
+# Delete order with order_id = 123e4567-e89b-12d3-a456-556642440000
+curl -X DELETE "http://localhost:8081/api/orders/delete/order?orderId=123e4567-e89b-12d3-a456-556642440000"

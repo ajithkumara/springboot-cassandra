@@ -1,0 +1,16 @@
+# With Spring Cloud Kubernetes, we can also load configuration directly
+# from Kubernetes ConfigMaps. In this application, we show how to load the database 
+# connection information using this technique. 
+# Our simple ConfigMap for the Spring Boot service is shown below.
+
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-boot-service
+data:
+  application.yml: |-
+    cassandra.contact-points: cluster1-dc1-service.cass-operator
+    cassandra.keyspace: betterbotz
+    cassandra.local-datacenter: dc1
+    cassandra.port: 9042
