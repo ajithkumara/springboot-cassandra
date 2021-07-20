@@ -1,0 +1,9 @@
+commit 0770d5012eff4cbd23e601a001614fd218cd1949
+tree 7e82d1b81f76e03ca1d8a8635d06a2b860c03584
+parent 01e321bf3ffc3367f36427799dbb08d4af0bd52b
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 11:18:07 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 11:18:07 +0530
+
+    fixed image tag issue
+
+:100644 100644 abd18c41036bed93f0306f82308b3570b8b8ade7 81f18c0a9bc05ec3436cf0d869249e9ee5926305 M	Jenkinsfile

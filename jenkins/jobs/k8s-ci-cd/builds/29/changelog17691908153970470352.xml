@@ -1,0 +1,9 @@
+commit f4475b94153477cb3b782b3a5e2226ee074dc814
+tree 46c504444450f32d427b9fbd9e2f755807febef5
+parent 0028b5d4ca49686f09e9afc329ac7411cc561c4e
+author ajith <ajith@ajith-VirtualBox> 2021-06-29 11:31:46 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-29 11:31:46 +0530
+
+    changed path of YAML file
+
+:100644 100644 961f9180bda79e93c907377775ec8582a5217672 74b583a31030abedb55b386240c3074803f81294 M	Jenkinsfile

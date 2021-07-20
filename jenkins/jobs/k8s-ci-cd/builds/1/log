@@ -1,0 +1,58 @@
+Started by user [8mha:////4DCK/ZYoKY2NLS/7/M6M5mvumyLOah8omzt+NX8uu758AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9rNS87My8YgDcoqjWwgAAAA==[0mJenkins User
+Obtained Jenkinsfile from git https://github.com/ajithkumara/oreilly-docker-java-shopping
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4KRBg8KOst3baG/YrsH2K0GGdxcNwnCB2y9hztop/XmJAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4H4rsVg35r/06y98bT6rhL0BTCosye7JQtIFbJQwo4WvAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4MWz5CqTTG06CntYXrU+Cs49p7fb4ScF3m2yeUQ9el6jAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/k8s-ci-cd
+[8mha:////4H4w6aPwrD0VuwynzSr26YKXatzIOT9mGiTieisuSDr8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4BTSi/SaF6uazAooA53GsvocoqPeC5c0my0Cqq7kEJEVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4DxCGDCTnVC2bLT+y6DdPfxHKlRUzCRzC4/yzzt7SZgoAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4ElcbMfVjujy3mniRbTvNStHkf0HoGPVqQuA/10G4xcfAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+using credential 717a9261-7342-40df-92dd-7518dfd23442
+Cloning the remote Git repository
+Cloning repository https://github.com/ajithkumara/oreilly-docker-java-shopping
+ > git init /var/lib/jenkins/workspace/k8s-ci-cd # timeout=10
+Fetching upstream changes from https://github.com/ajithkumara/oreilly-docker-java-shopping
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/ajithkumara/oreilly-docker-java-shopping +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ajithkumara/oreilly-docker-java-shopping # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 345dce28c0d705dbecc8b0a294264c78a09f5cc4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 345dce28c0d705dbecc8b0a294264c78a09f5cc4 # timeout=10
+Commit message: "Jenkinsfile - docker build"
+First time build. Skipping changelog.
+[8mha:////4AkRCYrHIIPxWoovIXriVHifLBrM3A23gVnVK+vkyJmhAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4LuWL9K16OkOrWWc9b2gjmcUDAvsiNNLfHvRf/9Qal8oAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4BMy/xVYYTEqtysIO39DlctBNtiCL7mtE6DHtkhEk7cxAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4HmBgcl9wF2QgriKYt3j/1Y9mGgMTfxpZsHPnbIfFwobAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4Fy8DpY9nireGeG+l99ejvRdpqxhbzizJcv1pny13tHQAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4An9cSo/9ZsiwGfyVSnfI6mRF7+R9l9SKzW+2hPE212OAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Build Docker Image)
+[8mha:////4Mg8kOyNDvidR7U4B5IXRA1ZiTHs9J/ZCq55WFLzK+zcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ pwd
+/var/lib/jenkins/workspace/k8s-ci-cd
+[8mha:////4Pk4Gbc5izfPHmwXoNZIOmC18wQoVmjM93CNJHExD2j5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDxaFw97CAAAA[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/k8s-ci-cd/productcatalog
+[8mha:////4GEF4IpmnG1lJQEhrdR09jQsiq5s2/+0051rb3mXuH6OAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4Mk7dixFLD9WM0yRwkMuQrfSVgToeqT2pnVr6c85oxtCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ pwd
+/var/lib/jenkins/workspace/k8s-ci-cd/productcatalog
+[8mha:////4CIIif7OknytFZcrqrQrPTd0bIGxC6Oi7Ih51ApCr0+aAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGh1CMKvgAAAA==[0m[Pipeline] sh
++ docker build . -t aakumara/data/productcatalog:4.0
+unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /var/lib/jenkins/workspace/k8s-ci-cd/productcatalog/Dockerfile: no such file or directory
+[8mha:////4L8/LSeI2ix8jTFMC977kTrzvI5ga+LtMaed2d2Ij+w/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFEU4bYvgAAAA==[0m[Pipeline] }
+[8mha:////4O8TVocsGEVrJ6wnVICbEljwlesNgDRfy0AWMmaTtRO0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGrSWhXvgAAAA==[0m[Pipeline] // dir
+[8mha:////4LnDCCXMECggXCf3ymencb/o+LwTTcgC4aOEY8nydtZeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoNzXuerDBzs/V3W+AAAA[0m[Pipeline] }
+[8mha:////4IdG0u99yIgYbYMZEnyRaIiHFNtH1ehXvbLQeEL/w9AIAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaREVreWGF5jkME6sO2M7OBUv4mv8AYtIVGyx2tlmXm9YxwBHDkYMSKOl2Fnh3WTKEpnDeHWcxcAX0TFFdigUZsU9nhZUnBCWVDWsJGyQOsfRkkmwlYN+6MZpMs05hfIdJNS2v8MTKlnMSYf0hTnA7jb1kenn+SuA2fsEdduW2rcfA33EhL4AAAA=[0m[Pipeline] // stage
+[8mha:////4CGSrqJPnV7pLvI/xRAh02xABlP/RihcyE+zsP1yPMasAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoNwfctX1Bxz/kda+AAAA[0m[Pipeline] }
+[8mha:////4AYk/mY3xuHbXwgpp01FFA7jMSW9lqMCsMYtarsTW9C/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICiA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptPzL/k7y+AAAA[0m[Pipeline] // withEnv
+[8mha:////4OtqSyzA9WOPiSxbG2IMe/F9lwkrhR0zcPhpHNqnRZcWAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPW9YxnL0AAAA=[0m[Pipeline] }
+[8mha:////4B90sdMphl+xcRkCIGvnZGUouMOb8hmYyFhkebmqA4NMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9ACg59UW9AAAA[0m[Pipeline] // node
+[8mha:////4DFZP487TRjpVG750poz7txZyWblaoIcu1iclEXh7MkhAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkLA7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHDiCSD70AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

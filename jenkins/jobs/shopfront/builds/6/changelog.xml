@@ -1,0 +1,255 @@
+commit 7107e087c101c4538d7477cd1995e40b37f062c2
+tree 35e73fdb9c1e20f7c7295388c6838b486ee2a911
+parent 974d4dd00a2783d7a265bd1c9d36fc1bf1f4e249
+author ajith <ajith@ajith-VirtualBox> 2021-07-06 10:13:19 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-07-06 10:13:19 +0530
+
+    fixed tag version
+
+:100644 100644 9ef86227478e758df6cfd1aa1bca2f6ada5e37e5 6b784ac755f5e5f669348a8041f0726a8c66de4b M	kubernetes/shopfront-service.yaml
+:100644 100644 41f47ff3b39d6eb70030fff8e37d386c90588873 b1ce29569b29cbab20b38dcd196b169c43745f8b M	kubernetes/stockmanager-service.yaml
+commit 974d4dd00a2783d7a265bd1c9d36fc1bf1f4e249
+tree 2319491ae9e3d6cf1abb20d22f43bd23d402b11d
+parent a62cd5521904996c8d0de937ad8d8f3d65473e56
+author ajith <ajith@ajith-VirtualBox> 2021-07-05 23:33:29 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-07-05 23:33:29 +0530
+
+    change permission of sh files
+
+:100644 100644 8941b9065655e7e637e8cbed8fccfbd9b1ac8698 0e61c7ff72164b8bcb1a9439ba70c7554d7c24cf M	Jenkinsfile_productcatalogue
+:100644 100644 d7d5461a59e6e6bf7a53a3e11e771498f8bb20d2 95597bdea2bad7c81a8fda7934ba732eab685c3e M	Jenkinsfile_shopfront
+:100644 100644 c02c3d3f91677efda413fef9892af1218c852dca 17a39a98f6403e1610bcac1ddb7e0f7189a0ae68 M	Jenkinsfile_stockmanager
+commit a62cd5521904996c8d0de937ad8d8f3d65473e56
+tree b21f0fd611e088d6343844ca6f0b8f5a9e0e1a8b
+parent 1d8f087ff65e41d233be74fc15722e93f8c4c854
+author ajith <ajith@ajith-VirtualBox> 2021-07-05 23:13:54 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-07-05 23:13:54 +0530
+
+    project specific jenkins files
+
+:000000 100644 0000000000000000000000000000000000000000 8941b9065655e7e637e8cbed8fccfbd9b1ac8698 A	Jenkinsfile_productcatalogue
+:000000 100644 0000000000000000000000000000000000000000 d7d5461a59e6e6bf7a53a3e11e771498f8bb20d2 A	Jenkinsfile_shopfront
+:000000 100644 0000000000000000000000000000000000000000 c02c3d3f91677efda413fef9892af1218c852dca A	Jenkinsfile_stockmanager
+:000000 100644 0000000000000000000000000000000000000000 cd4ce43b934d0946283f1688e7aa3f0c9bb3fc31 A	ReadMe.txt
+:000000 100644 0000000000000000000000000000000000000000 877fd86ea7131f7f20e056c9a0d5a038cb45ef2d A	changeTagProductCatalogue.sh
+:000000 100644 0000000000000000000000000000000000000000 64867772efc9e21191a11d3b41c3ab9f6f1b33b3 A	changeTagShopFront.sh
+:000000 100644 0000000000000000000000000000000000000000 413d9bc54f0fe5e7aff1b081dde3eb68e4fff2a6 A	changeTagStockManager.sh
+commit 1d8f087ff65e41d233be74fc15722e93f8c4c854
+tree 47857729d67085e5501adf6a02a99093dc0811f6
+parent 973b5d2ac1bd77b0bc69e3d38d743e72ac12ae88
+author ajith <ajith@ajith-VirtualBox> 2021-07-05 21:32:07 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-07-05 21:32:07 +0530
+
+    corrected the file name
+
+:100644 100644 99393612f8df04fc5a7d2db7a99fae7c5b00dbba 569d5c01f65dd9c52a6538cf5392a4d5cf367efc M	Jenkinsfile
+:100644 100644 f1adb9f354a210671c0b454dd06f10ac32e3b4c9 877fd86ea7131f7f20e056c9a0d5a038cb45ef2d M	changeTag.sh
+commit 973b5d2ac1bd77b0bc69e3d38d743e72ac12ae88
+tree 78b691202a420e5493963b8342d8107123d44fda
+parent 2eae0ad270f5b9c2a4cedd7e726f2d36ae1edc92
+author ajith <ajith@ajith-VirtualBox> 2021-07-05 17:57:06 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-07-05 17:57:06 +0530
+
+    debug
+
+:100644 100644 0cb6c5012ae578b2409c11321d277b2eeb53e8ba 99393612f8df04fc5a7d2db7a99fae7c5b00dbba M	Jenkinsfile
+commit 2eae0ad270f5b9c2a4cedd7e726f2d36ae1edc92
+tree b672482b68a00652f09d654c3a22d079e2d86256
+parent 1106128f6d651f1e4df08c2f9f0c3ddce8f8f951
+author ajith <ajith@ajith-VirtualBox> 2021-07-04 23:32:48 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-07-04 23:32:48 +0530
+
+    added mykubeconfignew
+
+:100644 100644 ea9a96b75be917ff8dc27b2f500f7b6b9d2346b6 0cb6c5012ae578b2409c11321d277b2eeb53e8ba M	Jenkinsfile
+commit 1106128f6d651f1e4df08c2f9f0c3ddce8f8f951
+tree 89dd43fb5a630ad75dd96c9e7c8b1fd37a25b9f0
+parent 177463c61daf9d60c875a9f8f9caa1e5b6d84617
+author ajith <ajith@ajith-VirtualBox> 2021-07-04 22:27:00 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-07-04 22:27:00 +0530
+
+    degugging-deploy
+
+:100644 100644 8122b71f6a65a1b5d38b51afb4a43bf7c0b81e0c ea9a96b75be917ff8dc27b2f500f7b6b9d2346b6 M	Jenkinsfile
+commit 177463c61daf9d60c875a9f8f9caa1e5b6d84617
+tree b57cfbb8051e2000c2b205a834e5b0ce1a525208
+parent f4475b94153477cb3b782b3a5e2226ee074dc814
+author ajith <ajith@ajith-VirtualBox> 2021-06-29 22:15:55 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-29 22:15:55 +0530
+
+    whoami
+
+:100644 100644 74b583a31030abedb55b386240c3074803f81294 8122b71f6a65a1b5d38b51afb4a43bf7c0b81e0c M	Jenkinsfile
+commit f4475b94153477cb3b782b3a5e2226ee074dc814
+tree 46c504444450f32d427b9fbd9e2f755807febef5
+parent 0028b5d4ca49686f09e9afc329ac7411cc561c4e
+author ajith <ajith@ajith-VirtualBox> 2021-06-29 11:31:46 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-29 11:31:46 +0530
+
+    changed path of YAML file
+
+:100644 100644 961f9180bda79e93c907377775ec8582a5217672 74b583a31030abedb55b386240c3074803f81294 M	Jenkinsfile
+commit 0028b5d4ca49686f09e9afc329ac7411cc561c4e
+tree 147becd4febe0c2624f491d5744e7c0ef2945274
+parent 768808ce5cc8a5c6d7dd0e4045ac52f0c73d4e8c
+author ajith <ajith@ajith-VirtualBox> 2021-06-29 11:21:17 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-29 11:21:17 +0530
+
+    changed permission
+
+:100644 100644 a3ac6508759eb800f80bce64f3d0c953f8c48a37 961f9180bda79e93c907377775ec8582a5217672 M	Jenkinsfile
+commit 768808ce5cc8a5c6d7dd0e4045ac52f0c73d4e8c
+tree 4275be8ff89d99166f2abedf9b4aae0243005614
+parent 7d30c2ff0d314b2496021f6e8ed55506ab16d380
+author ajith <ajith@ajith-VirtualBox> 2021-06-29 01:31:26 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-29 01:31:26 +0530
+
+    deploy to k8s
+
+:100644 100644 d629f55d6672f629b79760d5532cfce0afea2c90 a3ac6508759eb800f80bce64f3d0c953f8c48a37 M	Jenkinsfile
+:100644 100644 0d27c8e8c50a75394f16483ef5589d4c968274db afcef440c072fa54252aba0e0f432bef11110f56 M	kubernetes/productcatalogue-service.yaml
+commit 7d30c2ff0d314b2496021f6e8ed55506ab16d380
+tree c4137c4ea6179b3dd9b24e7e85ff1be1a0c662a0
+parent f269c69a23337b3185f3cf711f58e4ea46bddefe
+author ajith <ajith@ajith-VirtualBox> 2021-06-28 13:34:00 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-28 13:34:00 +0530
+
+    Deploy- change tag
+
+:100644 100644 46fb321807d962cd0e4e53397dba4654f293d892 d629f55d6672f629b79760d5532cfce0afea2c90 M	Jenkinsfile
+:000000 100644 0000000000000000000000000000000000000000 f1adb9f354a210671c0b454dd06f10ac32e3b4c9 A	changeTag.sh
+commit f269c69a23337b3185f3cf711f58e4ea46bddefe
+tree 9e03d878e0f6f32a04684f161d170565f6b3d5b8
+parent 80367fe0c6d4009cf973780e61747bf320bce530
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 11:59:40 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 11:59:40 +0530
+
+    fixing docker push issue
+
+:100644 100644 0c9f6a3c7bbd1bea11b31c37f2f7626af1bbffad 46fb321807d962cd0e4e53397dba4654f293d892 M	Jenkinsfile
+commit 80367fe0c6d4009cf973780e61747bf320bce530
+tree f90e60ee9d2b19e4b96cc420c9a0fad174ad59ed
+parent 8a9f266d3915f7c458f7507ecb7632116d305a92
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 11:57:55 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 11:57:55 +0530
+
+    fixing docker push issue
+
+:100644 100644 40a78b209daffef572927526d465fc45fd48bde0 0c9f6a3c7bbd1bea11b31c37f2f7626af1bbffad M	Jenkinsfile
+commit 8a9f266d3915f7c458f7507ecb7632116d305a92
+tree 18a0738d5fceef870098c671be1b9c9c38880cbd
+parent fb69d7602223299b26e7dffdd524643801f3d344
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 11:33:40 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 11:33:40 +0530
+
+    docker push fixed permission denied
+
+:100644 100644 9920b54da101e0c97d80aab773d4e8e7f0040d3f 40a78b209daffef572927526d465fc45fd48bde0 M	Jenkinsfile
+commit fb69d7602223299b26e7dffdd524643801f3d344
+tree 5aa5de9f3495a38bfd120d59e3f4a5d25671d9b0
+parent 0770d5012eff4cbd23e601a001614fd218cd1949
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 11:29:37 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 11:29:37 +0530
+
+    fixed image tag issue
+
+:100644 100644 81f18c0a9bc05ec3436cf0d869249e9ee5926305 9920b54da101e0c97d80aab773d4e8e7f0040d3f M	Jenkinsfile
+commit 0770d5012eff4cbd23e601a001614fd218cd1949
+tree 7e82d1b81f76e03ca1d8a8635d06a2b860c03584
+parent 01e321bf3ffc3367f36427799dbb08d4af0bd52b
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 11:18:07 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 11:18:07 +0530
+
+    fixed image tag issue
+
+:100644 100644 abd18c41036bed93f0306f82308b3570b8b8ade7 81f18c0a9bc05ec3436cf0d869249e9ee5926305 M	Jenkinsfile
+commit 01e321bf3ffc3367f36427799dbb08d4af0bd52b
+tree 021d5da630e2b7325d4a4edfea0765828bc1a434
+parent 1e4a91bd48c17852c3762b5d8a70e8e4e8b7d660
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 11:08:41 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 11:08:41 +0530
+
+    add steps to fix a issue
+
+:100644 100644 9c3a74445c09e37a4365dcb9b589d52ac9afc489 abd18c41036bed93f0306f82308b3570b8b8ade7 M	Jenkinsfile
+commit 1e4a91bd48c17852c3762b5d8a70e8e4e8b7d660
+tree 2fb1f4e2e7387720cc21e02b0613dabcc4184ee5
+parent d2f3bf89055ccbbc047305c08093f4a3cb6de407
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 10:47:04 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 10:47:04 +0530
+
+    removed a line
+
+:100644 100644 503e37aef699d466ec27172ab11cd419f5969a67 9c3a74445c09e37a4365dcb9b589d52ac9afc489 M	Jenkinsfile
+commit d2f3bf89055ccbbc047305c08093f4a3cb6de407
+tree 103d9873a97e0ac8f30ac6e7bacb59a93b8d4be4
+parent a42e2c571a2e6dbc691d4c32d0137f1e6f013012
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 10:42:27 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 10:42:27 +0530
+
+    docker push
+
+:100644 100644 d9eb54af3559cd67dbbda3f455b85b5d0d84fc0f 503e37aef699d466ec27172ab11cd419f5969a67 M	Jenkinsfile
+commit a42e2c571a2e6dbc691d4c32d0137f1e6f013012
+tree 4ddc48e28c825498dffa553867393494f07a26a9
+parent 2966e154e70422818fd6c8191fef98c753f848ec
+author ajith <ajith@ajith-VirtualBox> 2021-06-26 17:51:03 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-26 17:51:03 +0530
+
+    get latest tag
+
+:100644 100644 b421498a8c99be9c36a69cdb2b6a3e687d9138bc d9eb54af3559cd67dbbda3f455b85b5d0d84fc0f M	Jenkinsfile
+commit 2966e154e70422818fd6c8191fef98c753f848ec
+tree 9c89f1deda8df209f37222ae74915f9262472e0d
+parent 2669ccd1d1a12f56bc4ab73717a91bfeca4b2800
+author ajith <ajith@ajith-VirtualBox> 2021-06-25 23:40:57 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-25 23:40:57 +0530
+
+    docker login
+
+:100644 100644 f23d19097780f843604f5cc12a6453c4f70d702e b421498a8c99be9c36a69cdb2b6a3e687d9138bc M	Jenkinsfile
+commit 2669ccd1d1a12f56bc4ab73717a91bfeca4b2800
+tree 49935ff42a49efa04bd6c7e573b13b9c8815b81d
+parent c60962aafece448882bd8dba57ed7a7c633c2c53
+author ajith <ajith@ajith-VirtualBox> 2021-06-25 22:19:16 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-25 22:19:16 +0530
+
+    corrected spelling mistake
+
+:100644 100644 4dd2ae9edc446abe66b84a1a2617346cc3dc4d0f f23d19097780f843604f5cc12a6453c4f70d702e M	Jenkinsfile
+commit c60962aafece448882bd8dba57ed7a7c633c2c53
+tree d1d6e0487465cdf57f110183ef6e94165a09c6d0
+parent ded528675a2df317af19def3c124771517cd3fba
+author ajith <ajith@ajith-VirtualBox> 2021-06-25 22:15:52 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-25 22:15:52 +0530
+
+    debugging
+
+:100644 100644 1ecfab055ed4cedde6c07044c571faaff5ee6faa 4dd2ae9edc446abe66b84a1a2617346cc3dc4d0f M	Jenkinsfile
+commit ded528675a2df317af19def3c124771517cd3fba
+tree 10e474a98c589abcfffdb7fdbef911d9cd8d4748
+parent f6093c3ff6f376d62c9d99b2476e976346ec4f08
+author ajith <ajith@ajith-VirtualBox> 2021-06-25 17:21:12 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-25 17:21:12 +0530
+
+    debugging
+
+:100644 100644 d6c8ff611d107e146c584948fb7d6633615b360a 1ecfab055ed4cedde6c07044c571faaff5ee6faa M	Jenkinsfile
+commit f6093c3ff6f376d62c9d99b2476e976346ec4f08
+tree e5523503938cba6519d2cbb589453b499427445b
+parent 345dce28c0d705dbecc8b0a294264c78a09f5cc4
+author ajith <ajith@ajith-VirtualBox> 2021-06-25 16:54:48 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-25 16:54:48 +0530
+
+    Debugging why empty productcatalog
+
+:100644 100644 4dd2ae9edc446abe66b84a1a2617346cc3dc4d0f d6c8ff611d107e146c584948fb7d6633615b360a M	Jenkinsfile
+commit 345dce28c0d705dbecc8b0a294264c78a09f5cc4
+tree d1d6e0487465cdf57f110183ef6e94165a09c6d0
+parent 27e761e8b3dabfea8f1dfe805036353a78ae6ee8
+author ajith <ajith@ajith-VirtualBox> 2021-06-24 23:47:04 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-24 23:47:04 +0530
+
+    Jenkinsfile - docker build
+
+:000000 100644 0000000000000000000000000000000000000000 4dd2ae9edc446abe66b84a1a2617346cc3dc4d0f A	Jenkinsfile

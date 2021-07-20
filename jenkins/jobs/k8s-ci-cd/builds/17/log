@@ -1,0 +1,113 @@
+Started by user [8mha:////4DCK/ZYoKY2NLS/7/M6M5mvumyLOah8omzt+NX8uu758AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZe/dLi1CL9rNS87My8YgDcoqjWwgAAAA==[0mJenkins User
+Obtained Jenkinsfile from git https://github.com/ajithkumara/oreilly-docker-java-shopping
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4KRBg8KOst3baG/YrsH2K0GGdxcNwnCB2y9hztop/XmJAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4H4rsVg35r/06y98bT6rhL0BTCosye7JQtIFbJQwo4WvAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4MWz5CqTTG06CntYXrU+Cs49p7fb4ScF3m2yeUQ9el6jAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/k8s-ci-cd
+[8mha:////4H4w6aPwrD0VuwynzSr26YKXatzIOT9mGiTieisuSDr8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4BTSi/SaF6uazAooA53GsvocoqPeC5c0my0Cqq7kEJEVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4DxCGDCTnVC2bLT+y6DdPfxHKlRUzCRzC4/yzzt7SZgoAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4ElcbMfVjujy3mniRbTvNStHkf0HoGPVqQuA/10G4xcfAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+using credential 717a9261-7342-40df-92dd-7518dfd23442
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/k8s-ci-cd/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ajithkumara/oreilly-docker-java-shopping # timeout=10
+Fetching upstream changes from https://github.com/ajithkumara/oreilly-docker-java-shopping
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/ajithkumara/oreilly-docker-java-shopping +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision a42e2c571a2e6dbc691d4c32d0137f1e6f013012 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a42e2c571a2e6dbc691d4c32d0137f1e6f013012 # timeout=10
+Commit message: "get latest tag"
+ > git rev-list --no-walk a42e2c571a2e6dbc691d4c32d0137f1e6f013012 # timeout=10
+[8mha:////4AkRCYrHIIPxWoovIXriVHifLBrM3A23gVnVK+vkyJmhAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4LuWL9K16OkOrWWc9b2gjmcUDAvsiNNLfHvRf/9Qal8oAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4BMy/xVYYTEqtysIO39DlctBNtiCL7mtE6DHtkhEk7cxAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4HmBgcl9wF2QgriKYt3j/1Y9mGgMTfxpZsHPnbIfFwobAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4FUCuUFxeVfJpl1IzLWIaDC8PBkXUG7o6hKeqZJNwrXfAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ git rev-parse HEAD
+[8mha:////4KKRCZsiWeNFJvLxpN5xeZxS9PxvWv/DOzOXJNUDWtu6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFSNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPyt/2UMIAAAA=[0m[Pipeline] withEnv
+[8mha:////4GwHxrdnaxioJZmMEt54xsvKnXBkK5M0PV1OOFYjfyBWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4K5gdPK0UmkUFQUgAwdvmBsp44+OiYjeegWhG1dW94EIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] stage
+[8mha:////4GEF4IpmnG1lJQEhrdR09jQsiq5s2/+0051rb3mXuH6OAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Build Docker Image)
+[8mha:////4Mk7dixFLD9WM0yRwkMuQrfSVgToeqT2pnVr6c85oxtCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ pwd
+/var/lib/jenkins/workspace/k8s-ci-cd
+[8mha:////4CIIif7OknytFZcrqrQrPTd0bIGxC6Oi7Ih51ApCr0+aAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGh1CMKvgAAAA==[0m[Pipeline] sh
++ docker login -u aakumara -p Dosikate1!
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/lib/jenkins/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4JVQWbH57txo4Yd5bIj9SLfTr5/BZgCWaaT9ysMa+4cPAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULEgIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAv6VbYwgAAAA==[0m[Pipeline] dir
+Running in /var/lib/jenkins/workspace/k8s-ci-cd/productcatalogue
+[8mha:////4BLFgDpJ8pSxUOYXxcBu9Dyhoi4s3heEQ0J1BbOGx9+sAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4D0vMvZYDnhwfAXanc6IzjOX57u6QsMfTHO0TEdNtiD3AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] sh
++ pwd
+/var/lib/jenkins/workspace/k8s-ci-cd/productcatalogue
+[8mha:////4Oh2Lwr9tDeNXmLgSIuRJGCRiwxDvm/qR+emYmms6KgjAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bq7DVH74AAAA=[0m[Pipeline] sh
++ docker build . -t aakumara/data/productcatalogue:a42e2c571a2e6dbc691d4c32d0137f1e6f013012
+Sending build context to Docker daemon  17.71MB
+Step 1/5 : FROM openjdk:8-jre
+8-jre: Pulling from library/openjdk
+0bc3020d05f1: Pulling fs layer
+a110e5871660: Pulling fs layer
+83d3c0fa203a: Pulling fs layer
+4bcf6932eea7: Pulling fs layer
+63c38fddae30: Pulling fs layer
+2ce8496061d5: Pulling fs layer
+4bcf6932eea7: Waiting
+63c38fddae30: Waiting
+2ce8496061d5: Waiting
+a110e5871660: Verifying Checksum
+a110e5871660: Download complete
+4bcf6932eea7: Download complete
+63c38fddae30: Verifying Checksum
+63c38fddae30: Download complete
+83d3c0fa203a: Verifying Checksum
+83d3c0fa203a: Download complete
+0bc3020d05f1: Verifying Checksum
+0bc3020d05f1: Download complete
+2ce8496061d5: Verifying Checksum
+2ce8496061d5: Download complete
+0bc3020d05f1: Pull complete
+a110e5871660: Pull complete
+83d3c0fa203a: Pull complete
+4bcf6932eea7: Pull complete
+63c38fddae30: Pull complete
+2ce8496061d5: Pull complete
+Digest: sha256:76e44504258473de9df799d4c268d920ca76dc9f121a19cd78af3e8539c5971e
+Status: Downloaded newer image for openjdk:8-jre
+ ---> d75a3956451e
+Step 2/5 : ADD target/productcatalogue-0.0.1-SNAPSHOT.jar app.jar
+ ---> 1f31d3c27337
+Step 3/5 : ADD product-catalogue.yml app-config.yml
+ ---> b1d35f17ae3a
+Step 4/5 : EXPOSE 8020
+ ---> Running in 0989dae34667
+Removing intermediate container 0989dae34667
+ ---> e9303b005d7a
+Step 5/5 : ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","app.jar", "server", "app-config.yml"]
+ ---> Running in 1de931223139
+Removing intermediate container 1de931223139
+ ---> 06c68b933b41
+Successfully built 06c68b933b41
+Successfully tagged aakumara/data/productcatalogue:a42e2c571a2e6dbc691d4c32d0137f1e6f013012
+[8mha:////4C0Mqsdn7dlMg89xgp3Lizv8mye+NLpmDYSHgWUG461iAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fSZy7ir4AAAA=[0m[Pipeline] }
+[8mha:////4KMgEx577Xluv7tS25EHAS6EL1uBrkLhmQAmwmgYcP/lAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+WR0/FvgAAAA==[0m[Pipeline] // dir
+[8mha:////4DlrWTYyWKy0juJ/o+SjGsGLnHwM3B286CkfX+DVUOoTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+iiayevgAAAA==[0m[Pipeline] }
+[8mha:////4K7K3Imr+qmVdAa/wxOsHj4DaYpDdNjsvJXidvXPKZddAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+2qjGBvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DpbVkc8vGmeD25KjRVKQN+uxicFcwABp0p3N/A1SDtnAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AhUlqPb4AAAA=[0m[Pipeline] }
+[8mha:////4Pg554AjLG2YaGQ/SymMvVy4sFlR7gM/EaliBMp/xfMNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/zblhSvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4FNs5NQ8cJ3eL6Yp25zsHTbYw6gkfZlXFvtu7aG/GtfmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP3rcCne+AAAA[0m[Pipeline] }
+[8mha:////4Bi0mwvNxnU+6TV0K4otML4knV1FHpRGngfUbCpiiOS7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISRImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B5C2dYG+AAAA[0m[Pipeline] // withEnv
+[8mha:////4M/6R0RYhPMqH1gFMJEcFSck+X+nhKXGU1g6TaR7uhj7AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRgg5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BPqPtor0AAAA=[0m[Pipeline] }
+[8mha:////4INfVMxSLoHwAYK90XPxe8kUpwRWtM8OJtZu1G5NElJVAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR9NTCl7vQAAAA==[0m[Pipeline] // node
+[8mha:////4MygTwFMV5X3ay+avnN5oj4RDUeflCsuDtVZeoc9kEc/AAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h9rVU4xvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

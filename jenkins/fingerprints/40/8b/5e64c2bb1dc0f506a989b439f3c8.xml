@@ -1,0 +1,62 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-06-20 16:21:22.773 UTC</timestamp>
+  <md5sum>408b5e64c2bb1dc0f506a989b439f3c8</md5sum>
+  <fileName>Credential id=717a9261-7342-40df-92dd-7518dfd23442 name=aakumara@gmail.com/******</fileName>
+  <usages>
+    <entry>
+      <string>productcatalogue</string>
+      <ranges>3-4</ranges>
+    </entry>
+    <entry>
+      <string>productcataloguek8s</string>
+      <ranges>1-3</ranges>
+    </entry>
+    <entry>
+      <string>shopfront</string>
+      <ranges>4-7</ranges>
+    </entry>
+    <entry>
+      <string>stockmanagerk8s</string>
+      <ranges>1-6,8</ranges>
+    </entry>
+    <entry>
+      <string>TestProject1</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>k8s-ci-cd</string>
+      <ranges>1-2,4-17,19-34,37-47</ranges>
+    </entry>
+    <entry>
+      <string>shopfrontk8s</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>stockmanager</string>
+      <ranges>3-6</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.5">
+      <timestamp>1625501071070</timestamp>
+      <itemFullName>k8s-ci-cd</itemFullName>
+      <timestamp0>1625488086746</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.5">
+      <timestamp>1625594788620</timestamp>
+      <itemFullName>shopfrontk8s</itemFullName>
+      <timestamp0>1625594301286</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.5">
+      <timestamp>1625595117714</timestamp>
+      <itemFullName>productcataloguek8s</itemFullName>
+      <timestamp0>1625508231325</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.5">
+      <timestamp>1625759789662</timestamp>
+      <itemFullName>stockmanagerk8s</itemFullName>
+      <timestamp0>1625759770208</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

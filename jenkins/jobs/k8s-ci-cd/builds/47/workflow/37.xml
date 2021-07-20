@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.92">
+    <parentIds>
+      <string>36</string>
+    </parentIds>
+    <id>37</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.92">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>docker push aakumara/productcatalogue:1d8f087ff65e41d233be74fc15722e93f8c4c854
+ </string>
+        </entry>
+      </arguments>
+      <sensitiveVariables>
+        <string>dockerHubPwd</string>
+      </sensitiveVariables>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.45">
+      <startTime>1625501122312</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

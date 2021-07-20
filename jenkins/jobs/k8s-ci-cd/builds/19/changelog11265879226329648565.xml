@@ -1,0 +1,27 @@
+commit 01e321bf3ffc3367f36427799dbb08d4af0bd52b
+tree 021d5da630e2b7325d4a4edfea0765828bc1a434
+parent 1e4a91bd48c17852c3762b5d8a70e8e4e8b7d660
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 11:08:41 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 11:08:41 +0530
+
+    add steps to fix a issue
+
+:100644 100644 9c3a74445c09e37a4365dcb9b589d52ac9afc489 abd18c41036bed93f0306f82308b3570b8b8ade7 M	Jenkinsfile
+commit 1e4a91bd48c17852c3762b5d8a70e8e4e8b7d660
+tree 2fb1f4e2e7387720cc21e02b0613dabcc4184ee5
+parent d2f3bf89055ccbbc047305c08093f4a3cb6de407
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 10:47:04 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 10:47:04 +0530
+
+    removed a line
+
+:100644 100644 503e37aef699d466ec27172ab11cd419f5969a67 9c3a74445c09e37a4365dcb9b589d52ac9afc489 M	Jenkinsfile
+commit d2f3bf89055ccbbc047305c08093f4a3cb6de407
+tree 103d9873a97e0ac8f30ac6e7bacb59a93b8d4be4
+parent a42e2c571a2e6dbc691d4c32d0137f1e6f013012
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 10:42:27 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 10:42:27 +0530
+
+    docker push
+
+:100644 100644 d9eb54af3559cd67dbbda3f455b85b5d0d84fc0f 503e37aef699d466ec27172ab11cd419f5969a67 M	Jenkinsfile

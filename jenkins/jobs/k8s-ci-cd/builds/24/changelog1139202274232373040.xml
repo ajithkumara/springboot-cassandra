@@ -1,0 +1,9 @@
+commit 80367fe0c6d4009cf973780e61747bf320bce530
+tree f90e60ee9d2b19e4b96cc420c9a0fad174ad59ed
+parent 8a9f266d3915f7c458f7507ecb7632116d305a92
+author ajith <ajith@ajith-VirtualBox> 2021-06-27 11:57:55 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-27 11:57:55 +0530
+
+    fixing docker push issue
+
+:100644 100644 40a78b209daffef572927526d465fc45fd48bde0 0c9f6a3c7bbd1bea11b31c37f2f7626af1bbffad M	Jenkinsfile

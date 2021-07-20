@@ -1,0 +1,9 @@
+commit 2eae0ad270f5b9c2a4cedd7e726f2d36ae1edc92
+tree b672482b68a00652f09d654c3a22d079e2d86256
+parent 1106128f6d651f1e4df08c2f9f0c3ddce8f8f951
+author ajith <ajith@ajith-VirtualBox> 2021-07-04 23:32:48 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-07-04 23:32:48 +0530
+
+    added mykubeconfignew
+
+:100644 100644 ea9a96b75be917ff8dc27b2f500f7b6b9d2346b6 0cb6c5012ae578b2409c11321d277b2eeb53e8ba M	Jenkinsfile

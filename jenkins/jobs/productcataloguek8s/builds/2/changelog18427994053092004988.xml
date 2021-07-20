@@ -1,0 +1,11 @@
+commit 974d4dd00a2783d7a265bd1c9d36fc1bf1f4e249
+tree 2319491ae9e3d6cf1abb20d22f43bd23d402b11d
+parent a62cd5521904996c8d0de937ad8d8f3d65473e56
+author ajith <ajith@ajith-VirtualBox> 2021-07-05 23:33:29 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-07-05 23:33:29 +0530
+
+    change permission of sh files
+
+:100644 100644 8941b9065655e7e637e8cbed8fccfbd9b1ac8698 0e61c7ff72164b8bcb1a9439ba70c7554d7c24cf M	Jenkinsfile_productcatalogue
+:100644 100644 d7d5461a59e6e6bf7a53a3e11e771498f8bb20d2 95597bdea2bad7c81a8fda7934ba732eab685c3e M	Jenkinsfile_shopfront
+:100644 100644 c02c3d3f91677efda413fef9892af1218c852dca 17a39a98f6403e1610bcac1ddb7e0f7189a0ae68 M	Jenkinsfile_stockmanager

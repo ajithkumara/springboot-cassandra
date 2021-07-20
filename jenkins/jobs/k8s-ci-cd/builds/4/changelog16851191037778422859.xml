@@ -1,0 +1,18 @@
+commit ded528675a2df317af19def3c124771517cd3fba
+tree 10e474a98c589abcfffdb7fdbef911d9cd8d4748
+parent f6093c3ff6f376d62c9d99b2476e976346ec4f08
+author ajith <ajith@ajith-VirtualBox> 2021-06-25 17:21:12 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-25 17:21:12 +0530
+
+    debugging
+
+:100644 100644 d6c8ff611d107e146c584948fb7d6633615b360a 1ecfab055ed4cedde6c07044c571faaff5ee6faa M	Jenkinsfile
+commit f6093c3ff6f376d62c9d99b2476e976346ec4f08
+tree e5523503938cba6519d2cbb589453b499427445b
+parent 345dce28c0d705dbecc8b0a294264c78a09f5cc4
+author ajith <ajith@ajith-VirtualBox> 2021-06-25 16:54:48 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-25 16:54:48 +0530
+
+    Debugging why empty productcatalog
+
+:100644 100644 4dd2ae9edc446abe66b84a1a2617346cc3dc4d0f d6c8ff611d107e146c584948fb7d6633615b360a M	Jenkinsfile

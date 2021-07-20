@@ -1,0 +1,9 @@
+commit 2669ccd1d1a12f56bc4ab73717a91bfeca4b2800
+tree 49935ff42a49efa04bd6c7e573b13b9c8815b81d
+parent c60962aafece448882bd8dba57ed7a7c633c2c53
+author ajith <ajith@ajith-VirtualBox> 2021-06-25 22:19:16 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-25 22:19:16 +0530
+
+    corrected spelling mistake
+
+:100644 100644 4dd2ae9edc446abe66b84a1a2617346cc3dc4d0f f23d19097780f843604f5cc12a6453c4f70d702e M	Jenkinsfile

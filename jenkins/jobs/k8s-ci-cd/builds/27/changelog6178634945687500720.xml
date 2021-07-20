@@ -1,0 +1,10 @@
+commit 768808ce5cc8a5c6d7dd0e4045ac52f0c73d4e8c
+tree 4275be8ff89d99166f2abedf9b4aae0243005614
+parent 7d30c2ff0d314b2496021f6e8ed55506ab16d380
+author ajith <ajith@ajith-VirtualBox> 2021-06-29 01:31:26 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-29 01:31:26 +0530
+
+    deploy to k8s
+
+:100644 100644 d629f55d6672f629b79760d5532cfce0afea2c90 a3ac6508759eb800f80bce64f3d0c953f8c48a37 M	Jenkinsfile
+:100644 100644 0d27c8e8c50a75394f16483ef5589d4c968274db afcef440c072fa54252aba0e0f432bef11110f56 M	kubernetes/productcatalogue-service.yaml

@@ -1,0 +1,10 @@
+commit 7107e087c101c4538d7477cd1995e40b37f062c2
+tree 35e73fdb9c1e20f7c7295388c6838b486ee2a911
+parent 974d4dd00a2783d7a265bd1c9d36fc1bf1f4e249
+author ajith <ajith@ajith-VirtualBox> 2021-07-06 10:13:19 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-07-06 10:13:19 +0530
+
+    fixed tag version
+
+:100644 100644 9ef86227478e758df6cfd1aa1bca2f6ada5e37e5 6b784ac755f5e5f669348a8041f0726a8c66de4b M	kubernetes/shopfront-service.yaml
+:100644 100644 41f47ff3b39d6eb70030fff8e37d386c90588873 b1ce29569b29cbab20b38dcd196b169c43745f8b M	kubernetes/stockmanager-service.yaml

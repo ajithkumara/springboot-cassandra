@@ -1,0 +1,9 @@
+commit 2966e154e70422818fd6c8191fef98c753f848ec
+tree 9c89f1deda8df209f37222ae74915f9262472e0d
+parent 2669ccd1d1a12f56bc4ab73717a91bfeca4b2800
+author ajith <ajith@ajith-VirtualBox> 2021-06-25 23:40:57 +0530
+committer ajith <ajith@ajith-VirtualBox> 2021-06-25 23:40:57 +0530
+
+    docker login
+
+:100644 100644 f23d19097780f843604f5cc12a6453c4f70d702e b421498a8c99be9c36a69cdb2b6a3e687d9138bc M	Jenkinsfile
